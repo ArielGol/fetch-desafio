@@ -45,12 +45,13 @@ body{
   font-size: 16px;
   font-weight: normal;
 }
-.result_item{
+.result_item_link{
   display: flex;
   border: 1px solid #000000;
   border-radius: 4px;
   padding: 13px;
   margin-top: 16px;
+  text-decoration: none;
 }
 .result_item_img{
   width: 128px;
@@ -69,15 +70,18 @@ padding: 13px 15px;
 }
 .result_item_content_title{
   font-weight: bold;
+  color:#000000;
   font-size: 16px;
 }
 .result_item_content_condition{
   margin-top: 4px;
   font-weight: normal;
   font-size: 14px;
+  color:#000000;
 }
 .result_item_content_sell_count{
   margin-top: 44px;
   font-weight: normal;
   font-size: 14px;
+  color:#000000;
 }
