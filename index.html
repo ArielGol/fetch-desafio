@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script async src="./index.js"></script>
+  <link rel="stylesheet" href="./index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <div class="header_content">
+      <form class="form_search">
+        <input type="search" name="search" id="search" class="search_input" placeholder="Ingrese el producto">
+        <button class="search_button"type="submit">Buscar</button>
+      </form>
+    </div>
+  </header>
+  <div class="content">
+    <h3 class="title_resultados">
+      Resultados:
+      <span class="result_count"></span>
+    </h3>
+    <div class="results">
+
+    </div>
+    <template id="result_item_template">
+      <div class="result_item">
+        <a href="" class="result_item_link">
+          <img src="" alt="" class="result_item_img">
+        </a>
+      <div class="result_item_content">
+        <h4 class="result_item_content_title">Nombre del producto</h4>
+        <p class="result_item_content_condition">Nuevo</p>
+        <p class="result_item_content_sell_count">
+          Vendidos:
+          <span class="result_item_content_sell_count_number"></span>
+        </p>
+      </div>
+        <div class="result_item_price">$<span class="result_item_price_number"></span></div>
+      </div>
+    </template>
+  </div>
+  
+</body>
+</html>
