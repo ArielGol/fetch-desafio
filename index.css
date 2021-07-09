@@ -1,0 +1,83 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+  margin:0;
+}
+.header{
+  background-color:#FFF159;  
+}
+.header_content{
+  max-width: 510px;
+  margin: 0 auto;
+  padding: 12px 0;
+}
+.form_search{
+  display: flex;
+}
+.search_input{
+  flex-grow: 1;
+  height:44px;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  font-weight: normal;
+  font-size: 18px;
+  color: #B7B7B7;
+  margin-right: 14px;
+  padding-left: 10px;
+}
+.search_button{
+  height:44px;
+  padding: 12px 35px;
+  font-size: 16px;
+  background-color:  #FFFFFF;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  font-weight: bold;
+}
+.content{
+  max-width: 510px;
+  margin:0 auto;
+  overflow: auto;
+}
+.title_resultados{
+  font-size: 16px;
+  font-weight: normal;
+}
+.result_item{
+  display: flex;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  padding: 13px;
+  margin-top: 16px;
+}
+.result_item_img{
+  width: 128px;
+  max-height: 119px;
+}
+.result_item_content{
+  flex-grow:1;
+  padding: 0px 13px;
+}
+.result_item_price{
+font-weight: bold;
+font-size: 28px;
+text-align: right;
+color: #5791A4;
+padding: 13px 15px;
+}
+.result_item_content_title{
+  font-weight: bold;
+  font-size: 16px;
+}
+.result_item_content_condition{
+  margin-top: 4px;
+  font-weight: normal;
+  font-size: 14px;
+}
+.result_item_content_sell_count{
+  margin-top: 44px;
+  font-weight: normal;
+  font-size: 14px;
+}
